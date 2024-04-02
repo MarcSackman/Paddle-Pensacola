@@ -1,4 +1,56 @@
+/* Style rules for nav */
+nav {
+    background-color: black;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around; /* Evenly spaces items */
+    list-style-type: none;
+    padding: 0;
+}
+  
+nav ul li {
+    flex-grow: 1; /* Each item takes equal space */
+}
+  
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: x-large;
+}
+  
+/* Style rules for body */
 body { 
     background-color: blue;
+    color: white;
+    text-align: center;
+}
 
+.welcome {
+    background-color: black;
+    border: gray solid 2px;
+    font-size: larger;
+}
+
+.about {
+    background-color: black;
+    border: gray solid 2px;
+    font-size: larger;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+/* Style rules for footer */
+footer {
+    background-color: black;
+    border: gray solid 2px;
+}
+
+footer a {
+    text-decoration: none;
+    color: blue;
 }
